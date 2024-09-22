@@ -1,4 +1,5 @@
 const importar = require('./collectibles')
+const saludar = require('./saludar')
 
 let hotToys = importar('Hot Toys');
 let bandai = importar('Bandai'); 
@@ -18,3 +19,4 @@ let collectibles ={
 }
 //collectibles.listFigures()
 console.log(collectibles.figuresByBrand('Hot Toys'))
+saludar("Francis")
